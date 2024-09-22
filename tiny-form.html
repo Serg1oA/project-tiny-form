@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Tiny Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <img src="purple_banner.png" alt="banner">
+            <div class="dark-div">
+                <h1>A TINY FORM!</h1>
+            </div>
+        </div>
+        <div class="right-section">
+            <h1>Thank you for checking out my form!</h1>
+            <p>Note that this isn't a real online service or newsletter. This small project is part of my learning journey in web development, focusing on HTML, CSS, and JavaScript.</p>
+            
+            <h2>Don't waste time, sign up now!</h2>
+            <form action="example.com/path" method="post">
+                <div class="form-row">
+                    <div class="form-column">
+                        <label for="first_name">First Name</label>
+                        <input type="text" id="first_name" name="first_name" placeholder="Bob" required>
+                    </div>
+                    <div class="form-column">
+                        <label for="last_name">Last Name</label>
+                        <input type="text" id="last_name" name="last_name" placeholder="Noir" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-column">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="bob.noir@bob.com" required>
+                    </div>
+                    <div class="form-column">
+                        <label for="phone">Phone Number</label>
+                        <input type="text" id="phone" name="phone" placeholder="+012 123456789">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-column">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="*">
+                    </div>
+                    <div class="form-column">
+                        <label for="confirm_password">Confirm Password</label>
+                        <input type="password" id="confirm_password" name="confirm_password" placeholder="*">
+                    </div>
+                </div>
+
+                <input type="submit" value="Sign Up">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
